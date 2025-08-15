@@ -1,7 +1,10 @@
+import { View } from "react-native";
 import { Text } from "react-native";
 
 export function HomeScreen() {
     return(
-        <Text>Home</Text>
+        <View>
+            <Text>Home</Text>
+        </View>
     )
 }
